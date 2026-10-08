@@ -1,0 +1,425 @@
+
+       *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        
+       } 
+       a{
+        color: inherit;
+        text-decoration: inherit;
+       }
+      header{
+        width: 100%;
+        height: 44px;
+        background-color: #F5F5F7;
+       
+        
+      }
+      .header-container{
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        width: 996px;
+        height: 44px;
+        margin: auto;
+        
+        
+      }
+      .header-container ul{
+        list-style: none;
+        width: 996px;
+        height: 44px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        color: rgb(0,0,0,.8);
+        font-size: 15px;
+      }
+      .emi_section{
+        width: 996px;
+        height: 50px;
+        color: #1d1d1f;
+        padding: 16px 0;
+        margin: auto;
+        justify-content: space-between;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        display: flex;
+        font-size: 14px;
+        font-weight: 400;
+        text-align: center;
+      }
+      .emi_section p span{
+         color: #06c;
+         font-weight: bold;
+         font-size: 14px;
+            }
+      .store-section{
+        width: 100%;
+        height: 500px;
+        padding-top: 70px;
+        padding-bottom: 150px;
+        background-color: #F5F5F7;
+        padding: 70px;
+        margin: auto;
+        
+      }
+      .hero{
+        width: 100%;
+        margin:  auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      
+      }
+      .hero h1{
+        font-size: 80px;
+        font-weight: 600;
+        position: relative;
+        left: 60px;
+      
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+      }
+      .hero-right{
+      text-align: left;
+      }
+      .hero-right h2{
+        font-size: 28px;
+        line-height: 1.15;
+        margin-bottom :15px;
+        font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+      }
+      .links{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .links a {
+        font-size: 14px;
+        color: #06c;
+        text-decoration: none;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-weight: 400;
+      }
+      .links a:hover{
+        text-decoration: underline;
+      }
+      .products{
+        width: 100%;
+        margin-top: 80px;
+        gap: 50px;
+        text-align: center;
+        display: flex;
+        background-color: #F5F5F7;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        right: 70px;  
+      }
+      .product img{
+        width: 70px;
+        height: 70px;
+        font-weight: 400;
+        font-size: 95px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+
+      }
+      .product p{
+        margin-top: 12px;
+        font-size: 14px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+      }
+      .container{
+        background-color:#F5F5F7;
+        width: 100%;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serial;
+
+      }  
+      .cards{
+        display: flex;
+        gap: 20px;
+        margin-left: 150px;
+        margin-top: 30px;
+      }   
+        .card{
+         width: 400px;
+        height: 500px;
+        box-shadow: 0px 0px 2px gray;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        }
+      .card:nth-child(1){
+        background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-iphone-18-pro-202609?wid=800&hei=1000&fmt=webp&qlt=90&.v=UzBXQnlhUWdraTNvNU1Kb3pEQlpXSWQybG1sZ1oxVnEyWjA5KzltU01ZTFNab1lJcUZwSFVRK1htYlNmZUtPTFJ2R3NEUGt3Q2tTUTNWU09neHFkdWRUL1Azd1lsYk5RbEsxZXhvbThSV3VXS3B5dFRDdHdOWGF6ZzVmZHdiRWc&traceId=1);
+        background-size: cover;
+      }
+      .card h5{
+        color: orange;
+      }
+      .card h1{
+        color: white;
+      }
+      .card p{
+        color: white;
+      }
+    
+      .card:nth-child(2){
+        background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-iphone-duo-202609_GEO_US?wid=800&hei=1000&fmt=webp&qlt=90&.v=UzBXQnlhUWdraTNvNU1Kb3pEQlpXTmRieWJxSUI5TWh3VExiQnFCdzRFVFRScHZrVGpHeDlzdWlveXRWTHp6UnBxK0ZBNmxGbmUyUFZlUkRMaDBrbFIrM1V0MXQ3L01IeDRJOXlOYjZtNCtnL0IzVThMTWdFQ2ozUUd1SUY5OFE&traceId=1);
+        background-size: cover;
+        background-repeat: no-repeat;
+        .card h5{
+          color: orangered
+        }
+      }
+    .card:nth-child(3){
+      background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-watch-series-12-202609?wid=800&hei=1000&fmt=webp&qlt=90&.v=QWhYaUFuRS9hTUliZ3N5RWVCV09vaG9ZUW1EeWY5MUtXMHdLVXUrS2thUHJ5SDBWM0EzY1NDZnVpYTkvandVRGdpcjhyQnJrZTk3NDVpVGh0RDBPL1dlb1hSRFZ1bHlsVUx3SFRzY0JhYVpmcTUrTlhNMWhLS2RHRXhjZnVURVQ&traceId=1);
+      background-size: cover;
+    }
+    .container1{
+      width: 100%;
+      background-color: #F5F5F7;
+       font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serial;
+       padding-top: 50px;
+    }
+    .cards1{
+        display: flex;
+        gap: 20px;
+        margin-left: 150px;
+        margin-top: 30px;
+    }
+    .card1{
+        width: 400px;
+        height: 500px;
+        box-shadow: 0px 0px 2px gray;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        background-color:white;
+        }
+        .card1 img{
+          width: 100%;
+          height: 100%;
+        }
+        .card1:nth-child(1){
+          background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-accessories-202609?wid=800&hei=1000&fmt=webp&qlt=90&.v=K1NBYnFSRndoRHEyUklJLyttMlQ2TG1qbzh6M0pUN1JpZkczYjRybGZNUnFTRjNxbmh1UnU2R29ibGdpZUFXc25ZdDMremx3N21EQS9OQlBTRXgxeUp5dXpFTzJma0dsYURVWlNjRzA0b3hScUlPVWprbUpBaEFzSlFPM0dUcXg&traceId=1);
+          background-size: cover;
+        }
+        .card1:nth-child(2){
+          width: 313px;
+          height: 500px;
+        }
+        .listmain{
+         display: flex;
+         justify-content: center;
+         gap:12px;
+         margin-top: 15px;
+        }
+        .list{
+        width: 12px;
+        height: 12px;
+        }
+        .card1:nth-child(3){
+          width: 313px;
+          height: 500px;
+        }
+         .card1:nth-child(4){
+          width: 313px;
+          height: 500px;
+        }
+      .container2{
+      width: 100%;
+      background-color: #F5F5F7;
+       font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serial;
+       padding-top: 50px;
+       padding-left: 150px;
+    }
+    .cards2{
+        display: flex;
+        gap: 20px;
+        margin-top: 30px;
+    }
+    .card2{
+      width: 480px;
+      height: 500px;
+       box-shadow: 0px 0px 2px gray;
+      border-radius: 10px;
+      padding: 25px;
+      font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+      background-image: url("https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-specialist-help-202512?wid=960&hei=1000&fmt=webp&qlt=90&.v=TkJLQU9OWTZMS1N4dlhoOWl3SEhrUkxnN3NTOHN5WTV1c3NEYkc1TXhDMzcydVEyUlBCcVdrTlBkR2FhK21pbGdpcjhyQnJrZTk3NDVpVGh0RDBPL2F4QUljQmVqbVJQUjNhWWMxZDJtSUs0cGR2RlBjQW9meUMyVmRrUStsS0I&traceId=1");
+      background-size: cover;
+    }
+    .card2:nth-child(2){
+      background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-specialist-video-202609?wid=960&hei=1000&fmt=webp&qlt=90&.v=TkJLQU9OWTZMS1N4dlhoOWl3SEhrYnlpTHAvaU1TZWJjTXg3K2FoelBrWXZBcWg0NUNQNURSblhmSFVuWmNkcjhKazZ3eldNWjF4eFJ4OTNUaDNrTE84bWFqWVR4REw4TEdQdmNaWHhsWUl4RHN4dm1kTUpyNlp1d0NZKzQ1bTI&traceId=1);
+      background-size: cover;
+    }
+    .card2:nth-child(3){
+      background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-taa-ai-202604?wid=960&hei=1000&fmt=webp&qlt=90&.v=cFEvalhFakpZVzg4RFZsWktqbXFNYnZ0eGJDYUF3MFBoaDZXSkNFUHdVMGYzUHRVc053YldlK2NuZForb0M1V1RVbGY1Uno3Zm5uM1BxeHV2clpndUszNFJmWXBYWTFIQU9YRkJ2NlRXOFE&traceId=1);
+      background-size: cover;
+    }
+     .container2{
+      width: 100%;
+      background-color: #F5F5F7;
+       font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serial;
+       padding-top: 50px;
+       padding-left: 150px;
+    }
+    .cards2{
+        display: flex;
+        gap: 20px;  
+    }
+   .cardd{
+    width: 400px;
+        height: 500px;
+        box-shadow: 0px 0px 2px gray;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        background-color:white;
+        margin-top: 25px;     
+   }
+.post{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding-top: 25px;
+  gap: 20px;
+}
+.post1{
+  box-shadow: 0px 0px 2px gray;
+  width: 313px;
+  height: 240px;
+  padding: 28px 28px 0px;
+  border-radius: 8px;
+  background-color: white; 
+}
+.post1-img{
+  color: #06c;
+}
+ .container2{
+      width: 100%;
+      background-color: #F5F5F7;
+       font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serial;
+       padding-top: 50px;
+       padding-left: 150px;
+ }
+  .cards2{
+        display: flex;
+        gap: 20px;  
+    }
+   .cardd1{
+        width: 400px;
+        height: 500px;
+        box-shadow: 0px 0px 2px gray;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        background-color:white;
+        margin-top: 25px; 
+   }
+   .cardd1:nth-child(1){
+     background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-applemusic-202609?wid=800&hei=1000&fmt=webp&qlt=90&.v=REFqMnc0RUtNcWNBem5LRlFGZ25lVnBDREdpM1ZWYnFOUHZEd2VEc2Mxbm45S05qekNUdVUwMVFyK1pKaERUd3lPWjFvdU5EZVdwUnRCZ2RHSDBFS29SU0YrbEdQaWNZOWZzT2VHbkhZUFM1dDgvV3BhU1hoSzFPUEZjam5HQ2g&traceId=1');  
+        background-size: cover;  
+   }
+  .man{
+    display: flex;
+    gap: 20px;
+    padding-top: 25px;
+  }
+  .most{
+    width: 313px;
+    height: 500px;
+    box-shadow: 0px 0px 2px gray;
+    border-radius: 8px;
+    background-color: white; 
+    text-align: center;
+    text-align: center;
+    padding-top: 70px;
+  }
+.listmain{
+         display: flex;
+         justify-content: center;
+         gap: 10px;
+         margin-top: 15px;
+        }
+        .list img{
+          width: 12px;
+          height: 12px;
+        }
+        .cards3{
+          display: flex;
+          gap: 20px;
+          padding-top: 30px;
+        }
+        .cardd2{
+        width: 900px;
+        height: 500px;
+        box-shadow: 0px 0px 2px gray;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        background-color:white;
+        margin-top: 25px;
+   }
+   .cardd2:nth-child(1){
+    background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-apple-intelligence-202609?wid=960&hei=1000&fmt=jpeg&qlt=90&.v=SFNxMjRYSTFLdjBJZG1UYjBKRUNDalZCM0g0MTRQL0NONjZoQUpUNEpyYVdEMXA0MWpoUGsyVlhVK0RESnBoeHAwckMxbExydC8yeDhtUjlFVHdKVnFPZGdrdkJYeDZmRHNaQ2JLUk0vWjZlZ1o3YzRHbjRxR1pKd2NYWGxuMTA');
+    background-size: cover;
+   }
+   .cardd2 h2{
+    padding-top: 24px;
+    color: #1d1d1f;
+    font-size: 28px;
+    font-weight: 600;
+   }
+   .cardd2:nth-child(2){
+    background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-continuity-202609_GEO_US?wid=960&hei=1000&fmt=webp&qlt=90&.v=MkxpRXJEbEM4SjVucjFvcTdEU1BlNktGcElSZCtpUGVDcVhib0c0eEptbkFkWTlnaEhRWXFUU1Nhem4xR20wcHBxK0ZBNmxGbmUyUFZlUkRMaDBrbFNNMFp4YWR1N3E2b1dlVHpTc3F2TXdOOEcvS0M0OWFBQ2FJclFHb2VWSW0&traceId=1');
+    background-size: cover;
+   }
+   .cardd2 p{
+    font-size: 12px;
+    color: #424245;
+    font-weight: 600;
+   }
+   .cardd2:nth-child(2) h2{
+      padding-top: 10px;
+      color: #1d1d1f;
+    font-size: 28px;
+    font-weight: 600;
+   }
+   .cardd2:nth-child(3){
+    background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-50-applecare-202609?wid=960&hei=1000&fmt=p-jpg&qlt=95&.v=SFNxMjRYSTFLdjBJZG1UYjBKRUNDZ0Z6cmtkamptY3RnWDhHQklKRlVnNEloZHRRYWt5UUpyTGVwNEhDZEV3VXg4ZHpEbm5XWGdaM3BiNVRDaG55UlB4RU8zVVBBTEJsd2gvZU9ZN2JGYVVVRk5BYjU4dkMrYjBKSjFqVXFOVGg');
+    background-size: cover;
+   }
+   .cardd2:nth-child(3) h2{
+      padding-top: 10px;
+      color: #1d1d1f;
+    font-size: 28px;
+    font-weight: 600;
+   }
+     .cards2{
+          display: flex;
+          gap: 20px;
+     }
+    .cardd0{
+        width: 400px;
+        height: 500px;
+        box-shadow: 0px 0px 2px gray;
+        border-radius: 10px;
+        padding: 25px;
+        font-family: SF Pro Text, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+        background-color:white; 
+   }
+   .cardd0:nth-child(1){
+    background-image: url(https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/iphone-card-40-carriertrade-202409?wid=800&hei=1014&fmt=webp&qlt=90&.v=cmVEYjlFVTUrZjdLT25ZZ2djOUZ2WTVRdHN0TWZxV3QyUGs3WkMzR0dyM1Nab1lJcUZwSFVRK1htYlNmZUtPTFNxVmFJL1p3SVNXWlA5RUhlWmdjY2ErK1U5TUo2UVYyTHd5LzN5eFFzZDdwL0d1c3NWVlpVcHFPcTQ2OUZwVTE&traceId=1);
+    background-size: cover;
+   }
+   .cardd0:nth-child(2){
+    background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-education-202609?wid=800&hei=1000&fmt=webp&qlt=90&.v=TysyM3c4L0xvQ1dZWVNWTXZ0ekxPT3FZdktzMlZ6T240YVluQWFKYXhUcjkvamYzRzRvcFlnajNacmhEOC9BeEZXZzlzM2cwVmJseGdsS3RYT09za3ZERG1mS2EyUTN1Q09mUmN2RHljNUIrYWpGdS9XeFgvbS9ITnNYOEhYaG4&traceId=1');
+    background-size: cover;
+   }
+   .cardd0:nth-child(3){
+    background-image: url('https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/store-card-40-refurb-202408?wid=800&hei=1000&fmt=webp&qlt=90&.v=MTZ5STlsTFBndFBGTjdlaHEreGY1YTFsUjh2RWUzeU9adTZtZmNMZDNMVnd5b1hKY2V3T2V4alVLZTRFVTdOK1RVbGY1Uno3Zm5uM1BxeHV2clpndVBFcG82Z2ZoNURDamNUbHI2WWJrc2M&traceId=1');
+    background-size: cover;
+   }
+  
+  
+
+      
+  
+    
